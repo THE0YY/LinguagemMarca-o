@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .aa{
+            color: white;
+            background-color: gray;
+            align-items: center;
+            display: inline-block;
+            flex-direction: column;
+            border-style: dotted;
+            padding-bottom: 12;
+        }
+        input{
+            background-color: black;
+            border-style: solid;
+            color: white;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="aa">
+        <input id="usuario" type="text">
+        <input id="senha" type="password">
+        <button onclick="Checar()">Logar</button>
+    </div>
+</body>
+<script>
+    function Checar(){
+        const log_user = document.getElementById("usuario").value
+        const log_senha = document.getElementById("senha").value
+        if (log_user == "admin" && log_senha == 123){
+            window.location.href = "Teoria.html";
+        }else{
+            alert("senha incorreta bot")
+        }
+    }
+</script>
+</html>
