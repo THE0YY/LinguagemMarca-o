@@ -4,27 +4,7 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Teoria do Eita bixo</title>
-            <style>
-            body{
-                background-color: black;
-            }
-            div{
-                color: white;
-                padding-left: 20;
-            }
-            a{
-                color:cyan;
-            }
-            img{
-                border-style:solid;
-                color: gray;
-            }
-            input{
-                background-color: black;
-                color: white;
-                border-style: solid;
-            }
-        </style>
+        <link rel="stylesheet" href="Teoria.css">
     </head>
     <body>
         <div>
@@ -47,10 +27,24 @@
             <p>Este é um texto grande, <br>
             que eu desejo quebrar a <br>
             linha</p>
-            <a href="https://touhou.fandom.com/wiki/Reimu_Hakurei" target="_blank"><img src="Imagens/Th20Reimu.webp" alt="" title="Hakurei reimu" width="100" height="100"></a>
-            <a href="https://touhou.fandom.com/wiki/Marisa_Kirisame" target="_blank"><img src="Imagens/882px-Th20Marisa.png" alt="" title="Kirisame Marisa" width="100" height="100"></a>
-            <img src="Imagens/dob-dob-dob-rizz.gif" alt="" width="100" height="100">
+            <h5 class="titulo">Trabalhando com css</h5>
+            <p>Vizualizando o funcionamento da margem ^</p>
+            <a href="https://touhou.fandom.com/wiki/Reimu_Hakurei" target="_blank"><img src="Imagens/Th20Reimu.webp" alt="" title="Hakurei reimu" ></a>
+            <a href="https://touhou.fandom.com/wiki/Marisa_Kirisame" target="_blank"><img src="Imagens/882px-Th20Marisa.png" alt="" title="Kirisame Marisa" ></a>
+            <img class='imagem' src="Imagens/galito.png" alt="" >
+            <img src="Imagens/dob-dob-dob-rizz.gif" alt="" >
+            <h4>Criando nosso formulario</h4>
+            <form class="formulario">
+                <label>Nome</label>
+                <!-- Inserir um campo texto digitavel -->
+                <input type="text" class="input-nome" placeholder="Digite um nome"><br>
+                <!-- Tipo senha -->
+                <label>Senha</label>
+                <input type="password" class="input-nome" placeholder="Digite uma senha"><br>
+                 <input href="#" type="button" class="botao" value="Entrar">
+            </form>
         </div>
+        <hr>
         <a href="Index.html">Eita bixo home</a>
         <input type="text" placeholder="eita bixo">
     </body>

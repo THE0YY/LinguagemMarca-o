@@ -1,0 +1,81 @@
+* {
+    /* zera a margem do documento */
+    margin: 0;
+    /* gera um espaçamento interno */
+    padding: 0;
+}
+
+/* seletor de tipo, aplica o css em uma tag */
+h5{
+    /* o atributo important prioriza o elemento em relação ao outro */
+    color: blueviolet !important;
+}
+
+/* sletor de classe */
+.titulo{
+    background-color: orange;
+    color: greenyellow;
+    /* aplica margem em todas as laterais */
+    /* margin: 10px; */
+    /* margin-left: 20px; */
+    /* aplico o espaçamento no superior e inferior */
+    /* e aplico tambem nas laterais esquerda e direita */
+    /* margin: 20px 0; */
+    margin: 0 0 0 10px;
+    /* aplicando espaçamento interno */
+    /* padding: 10px; */
+    padding: 10px 0;
+}
+p{
+    background-color: brown;
+}
+.formulario{
+    background-color: darkgray;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.input-nome{
+    border: none; /* Remove a borda */
+    border-radius: 2px; /* Arredonda a caixa */
+    margin-left: 10px;
+    opacity: 70%; /* Defini a opacidade */
+    width: 200px;
+}
+.botao{
+    background-color: gainsboro;
+    border: none;
+    border-radius: 5px;
+    padding: 5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    /* Aplicando sombra no texto posiçao x, y blur */
+    text-shadow: 5px 2px 5px rgba(212, 14, 57, 0.9) ;
+}
+
+
+
+
+
+body{
+    background-color: black;
+}
+div{
+    color: white;
+    padding-left: 20;
+}
+a{
+    color:cyan;
+}
+img{
+    border-style:solid;
+    /* border-radius: 100px; */
+    color: gray;
+    width: 100px;
+    height: 100px;
+}
+input{
+    background-color: black;
+    color: white;
+    border-style: solid;
+}
