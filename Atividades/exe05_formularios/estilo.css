@@ -2,10 +2,8 @@ body{
     background-color: gray;
 }
 .PrincipalLoginCadastro{
-    display: block;
-    align-items: center;
     text-align: center;
-    margin: 70px auto auto auto;
+    margin: 75px auto auto auto;
     border-style: double;
     width: 600px;
     height: 600px;
