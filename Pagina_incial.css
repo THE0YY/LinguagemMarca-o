@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+.tela{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    width: 70%;
+    height: 550px;
+    margin: 7% auto;
+    border-radius: 5px;
+    border-style: ridge;
+    border-color: gray;
+}
+h1{
+    padding-top: 5%;
+    padding-bottom: 1px;
+    text-align: center;
+    color: white;
+    text-decoration: dotted;
+}
+h2{
+    padding-top: 2.5%;
+    padding-bottom: 4%;
+    text-align: center;
+    font-size: px;
+}
+.div-cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.cards{
+    background-color: rgb(37, 37, 37);
+    margin: auto;
+    border-radius: 10px;
+    align-content:center;
+    border-style: groove;
+    width: 35vh;
+    height: 200px;
+    border-color: gray;
+    transition: transform 0.1s ease;
+}
+.cards:hover{
+    transform: scale(1.05);
+}
+img{
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 100px;
+}

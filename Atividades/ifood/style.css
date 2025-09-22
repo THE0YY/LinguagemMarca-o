@@ -1,0 +1,33 @@
+:root{
+    --cor-vermelho-ifood: #ea1d2c;
+    --cor-cinza-texto: #575757;
+    --cor-cinza-borda: #e2e2e2;
+    --cor-fundo: #f7f7f7;
+}
+/* zerando as propriedades do documento */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* apliquei em todo o documento fonte, cor e fundo */
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-cinza-texto);
+}
+.cabecalho{
+    background-color: #fff;
+    padding: 15px 0;
+    border-bottom: 1px solid var(--cor-cinza-borda);
+}
+.logo{
+    height: 9vh;
+}
+.container{
+    /* propriedade define a largura maxima que ele pode atingir */
+    max-width: 1200px;
+    padding: 0 20pxx;
+    display: flex;
+    justify-content: space-between;
+}
