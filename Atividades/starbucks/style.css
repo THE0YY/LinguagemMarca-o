@@ -1,0 +1,182 @@
+:root {
+    --cor-verde-star: #006341
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.cabecalho {
+    margin-bottom: 20px;
+    border-bottom: gray solid;
+}
+
+.container {
+    margin: 4px 4px;
+    display: flex;
+    gap: 35px;
+}
+
+.logo-star {
+    justify-content: start;
+    width: 75px;
+}
+
+.link {
+    display: flex;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 1000;
+}
+
+.pino-localizacao {
+    height: 3vh
+}
+
+.link:hover {
+    color: var(--cor-verde-star);
+    border-bottom: 5px solid;
+}
+
+.link-esq {
+    display: flex;
+    font-size: 25px;
+    color: black;
+    flex-direction: row;
+    text-decoration: none;
+    font-weight: 1000;
+    margin-right: 20px;
+    align-self: center;
+}
+
+.img-historia {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 10vh;
+    margin-left: auto;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 100px;
+    gap: 10px;
+}
+
+.banner-star {
+    height: 450px;
+}
+
+.banner-texto {
+    background-color: #d4e9e2;
+    height: 250px;
+}
+
+
+.texto-banner {
+    letter-spacing: 3px;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.saiba-mais {
+    font-weight: 900;
+    align-self: center;
+    color: rgb(73, 96, 74);
+    margin: 50px 600px;
+    padding: 10px;
+    text-decoration: none;
+    border: solid;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-texto-2 {
+    background-color: #d4e9e2;
+    height: 350px;
+    display: flex;
+}
+
+
+.texto-banner-2 {
+    display: flex;
+    width: 450px;
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.texto-sabia {
+    display: flex;
+}
+.image-direita {
+    width: 600px;
+    height: auto;
+    justify-content: start;
+}
+
+.saiba-mais-2 {
+    font-weight: 900;
+    align-self: center;
+    color: rgb(73, 96, 74);
+    margin: 50px 300px;
+    padding: 10px;
+    text-decoration: none;
+    border: solid;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+}
+.texto-banner-2dir {
+    display: flex;
+    width: 450px;
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner-texto-2dir {
+    background-color: #d4e9e2;
+    height: 350px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.saiba-mais-2dir {
+    font-weight: 900;
+    align-self: center;
+    color: rgb(73, 96, 74);
+    margin: 50px 300px;
+    padding: 10px;
+    text-decoration: none;
+    border: solid;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+}
+.image-esq {
+    width: 600px;
+    height: auto;
+    justify-content: end;
+}

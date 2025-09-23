@@ -6,26 +6,36 @@
     <style>
         body{
             background-color: black;
+            color: white;
         }
         div{
             color: white;
             padding-left: 20;
+            gap: 15px;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            max-width: 1000px;
         }
         a{
             color: aqua;
         }
-        ul{
-            color: white;
+        .links{
+            color: aqua;
+            text-decoration: none;
+            padding: 5 25;
         }
     </style>
 </head>
 <body>
+    <a href="index.html">Voltar</a>
+    <h1>Atividade realizadas</h1>
     <div>
-        <a href="Pagina_inicial.html">Voltar</a>
-        <h1>Atividade realizadas</h1>
-        <li><a href="Atividades/exe01.html">Exe01 (Introdução)</a></li>
-        <li><a href="Atividades/exe02.html">Exe02 (Conto de fadas)</a></li>
-        <li><a href="Atividades/card.html">Exe03 (Cards)</a></li>
+        <a class="links" href="Atividades/exe01.html">Exe01 (Introdução)</a>
+        <a class="links" href="Atividades/exe02.html">Exe02 (Conto de fadas)</a>
+        <a class="links" href="Atividades/card.html">Exe03 (Cards)</a>
+        <a class="links" href="Atividades/exe05_formularios/login.html">Exe04 (formularios)</a>
+        <a class="links" href="Atividades/Pagina_inicial.html">Exe05 (pagina inicial)</a>
+        <a class="links" href="Atividades/ifood/index.html">Exe06(Ifood)</a>
+        <a class="links" href="Atividades/starbucks/index.html">Exe06(Starbucks)</a>
     </div>
 </body>
 </html>
